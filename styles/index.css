@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+   height:600px;
+   width:100%;
+
+   
+    background-image: url('../assets/images/oli.jpg');
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+div.container {
+    height: 100%;    
+}
+img{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 10px;
+    top: 7px;
+    opacity: 0.9;
+}
+ li {
+display: inline;
+padding-left: 5em;
+}
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+nav {
+    position: absolute;
+    right: 2%;
+    top: 0%; 
+}
+a:hover {
+    text-decoration: underline;
+    opacity: 1;
+    
+}
+/*mine section*/
+#mine h1{
+    display: flex;
+    width: fit-content;
+    font-size: 280%;
+    font-family: 'roboto',sans-serif;
+    position: relative;
+    left: 16%;
+    top: 210px;
+    color:white;
+    opacity: 0.7;
+}
+h2{
+    display: block;
+    width: fit-content;
+    font-size: 280%;
+    position: relative;
+    left: 5%;
+    top: 175px;
+    color:white;
+    opacity: 0.7;
+   
+    
+}
+p{
+
+    display: inline;
+    font-size:100% ;
+    position: relative;
+    left: 40%;
+    top: 415px;
+    color: white;
+    opacity: 0.7;
+    word-spacing: -1mm;
+}
+#p1{
+    display: inline;
+    font-size:100% ;
+    position: relative;
+    left: 40.5%;
+    top: 415px;
+    color: white;
+    opacity: 0.7;
+    word-spacing: -0.3mm;  
+}
+#p2{
+    display: inline;
+    font-size:100% ;
+    position: relative;
+    left: 41%;
+    top: 415px;
+    color: white;
+    opacity: 0.7;
+    word-spacing: -0.01mm;
+}
+     
+ /*end mine section*/
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 657px;
+    background:#1e2883 ;
+    opacity: 70%;    
+}
+.social-menu ul{
+    position: absolute;
+    top: 93%;
+    left:53%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-80%, -80%);
+    display: flex;
+}
+.social-menu ul li {
+   list-style: none; 
+   margin: 0 1px;
+}
+.social-menu ul li .fa{
+   line-height: 25px;
+   transition-duration: 6s;
+   color: rgb(255, 255, 255);
+}
+.social-menu ul li a{
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 5%;
+    background-color:black;
+    text-align: center;
+    transition: 6s;
+    box-shadow: 0 5px 4px rgba( 0, 0, 0,)
+
+}
+
+          

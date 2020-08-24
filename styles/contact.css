@@ -1,0 +1,80 @@
+*{
+    box-sizing:border-box;
+padding: 0;
+margin: 0;
+}
+.required  {
+    color: #FB7272;
+    display: inline;
+    
+}
+body{
+    font-family: 'roboto', sans-serif;
+background-color:#1630B7 ;
+}
+.logo {
+    height: 3.2em;
+ }
+ .imgLogo{
+     margin-top: 7em;
+ }
+ li {
+    display: inline;
+    padding-left: 5em;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        opacity: 1;
+    }
+    nav {
+        position: absolute;
+        right: 2%;
+        top: 0%; 
+    }
+    a:hover {
+        text-decoration: underline;
+        opacity: 1;
+    }
+ .contactbox{
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    flex-direction: column;
+    padding: 100px 500px;
+    position: relative;
+    right: -450px;
+  }
+ .send {
+   
+    padding: 10px 1px;
+    margin-bottom: -50px;
+    font-family: 'roboto',sans-serif;
+ }
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+    margin-left: 30px;
+    color: white;
+    gap: 30px;
+}
+.socialicons ul li {
+    list-style:none ; 
+}
+.socialicons ul li .fa-phone{
+color:#60d2fe;
+}
+.socialicons ul li .fa-envelope{
+    color:#faa596;
+}
+.socialicons ul li .fa-twitter{
+    color:#2ba9e3;
+}
+.socialicons{
+    display: block;
+    position: relative;
+    top: -67px;
+    margin-bottom: 13px;
+    left: 7px;
+}
